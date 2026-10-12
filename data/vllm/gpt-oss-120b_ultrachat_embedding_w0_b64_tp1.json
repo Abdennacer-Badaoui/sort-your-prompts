@@ -1,0 +1,63 @@
+{
+ "args": {
+  "model": "openai/gpt-oss-120b",
+  "workload": "ultrachat",
+  "grouping": "embedding",
+  "k": 16,
+  "window": 0,
+  "max_num_seqs": 64,
+  "max_tokens": 256,
+  "natural": false,
+  "tp": 1,
+  "ep": false,
+  "repeats": 3,
+  "save_outputs": false,
+  "tag": ""
+ },
+ "result": {
+  "sorted": {
+   "tok_s": 1773.3987560715887,
+   "seconds": 110.8660866158704,
+   "runs": [
+    {
+     "tok_s": 1765.9515236104123,
+     "seconds": 111.33261438459158,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1778.1393609994004,
+     "seconds": 110.56951120495796,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1776.1053836049534,
+     "seconds": 110.69613425806165,
+     "tokens": 196608
+    }
+   ]
+  },
+  "shuffled": {
+   "tok_s": 1731.079460331686,
+   "seconds": 113.57673873876531,
+   "runs": [
+    {
+     "tok_s": 1726.824327225984,
+     "seconds": 113.85524103417993,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1726.8431843763665,
+     "seconds": 113.85399773344398,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1739.5708693927072,
+     "seconds": 113.02097744867206,
+     "tokens": 196608
+    }
+   ]
+  }
+ },
+ "gain_pct": 2.444676671964774,
+ "wall_gain_pct": 2.4449786274921115
+}

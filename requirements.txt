@@ -1,0 +1,9 @@
+torch
+transformers>=4.57
+datasets
+scikit-learn
+numpy
+triton
+vllm
+matplotlib
+pillow

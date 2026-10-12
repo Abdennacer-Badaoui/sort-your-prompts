@@ -1,0 +1,7 @@
+__pycache__/
+*.npz
+*.npy
+data/prompts*.json
+figures/out/
+figures/fonts/
+logs/

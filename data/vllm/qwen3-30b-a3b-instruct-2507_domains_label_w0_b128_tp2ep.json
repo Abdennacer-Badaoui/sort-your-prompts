@@ -1,0 +1,53 @@
+{
+ "args": {
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "workload": "domains",
+  "grouping": "label",
+  "k": 16,
+  "window": 0,
+  "max_num_seqs": 128,
+  "max_tokens": 256,
+  "natural": false,
+  "tp": 2,
+  "ep": true,
+  "repeats": 2,
+  "save_outputs": false,
+  "tag": ""
+ },
+ "result": {
+  "sorted": {
+   "tok_s": 7431.086734411041,
+   "seconds": 26.45756601728499,
+   "runs": [
+    {
+     "tok_s": 7419.623497886293,
+     "seconds": 26.498379608616233,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 7442.549970935789,
+     "seconds": 26.416752425953746,
+     "tokens": 196608
+    }
+   ]
+  },
+  "shuffled": {
+   "tok_s": 6835.23217046422,
+   "seconds": 28.76395111810416,
+   "runs": [
+    {
+     "tok_s": 6827.016630805046,
+     "seconds": 28.798523664474487,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 6843.447710123394,
+     "seconds": 28.729378571733832,
+     "tokens": 196608
+    }
+   ]
+  }
+ },
+ "gain_pct": 8.717400507938455,
+ "wall_gain_pct": 8.717298860040202
+}

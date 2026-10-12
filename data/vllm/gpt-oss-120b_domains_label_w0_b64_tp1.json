@@ -1,0 +1,73 @@
+{
+ "args": {
+  "model": "openai/gpt-oss-120b",
+  "workload": "domains",
+  "grouping": "label",
+  "k": 16,
+  "window": 0,
+  "max_num_seqs": 64,
+  "max_tokens": 256,
+  "natural": false,
+  "tp": 1,
+  "ep": false,
+  "repeats": 3,
+  "save_outputs": true,
+  "tag": ""
+ },
+ "result": {
+  "sorted": {
+   "tok_s": 1676.833425574035,
+   "seconds": 117.37043130149443,
+   "runs": [
+    {
+     "tok_s": 1602.1373959523785,
+     "seconds": 122.71606698445976,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1705.9621862036392,
+     "seconds": 115.24757206812501,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1722.4006945660867,
+     "seconds": 114.14765485189855,
+     "tokens": 196608
+    }
+   ]
+  },
+  "shuffled": {
+   "tok_s": 1516.5432799700513,
+   "seconds": 129.6878312410166,
+   "runs": [
+    {
+     "tok_s": 1477.0227435975821,
+     "seconds": 133.11101731657982,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1530.9934840800968,
+     "seconds": 128.41857398115098,
+     "tokens": 196608
+    },
+    {
+     "tok_s": 1541.6136122324754,
+     "seconds": 127.53390242531896,
+     "tokens": 196608
+    }
+   ]
+  }
+ },
+ "gain_pct": 10.56944089371119,
+ "wall_gain_pct": 10.494465942518282,
+ "identity": {
+  "sorted_vs_shuffled": {
+   "identical_frac": 0.16145833333333334,
+   "median_first_divergence": 64.0
+  },
+  "shuffled_vs_shuffled2": {
+   "identical_frac": 0.14453125,
+   "median_first_divergence": 63.0
+  }
+ }
+}

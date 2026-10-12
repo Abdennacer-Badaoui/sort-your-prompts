@@ -1,0 +1,14 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "layers": 24,
+ "experts": 32,
+ "top_k": 4,
+ "domains": {
+  "code": 128,
+  "math": 128,
+  "creative": 128,
+  "french": 128,
+  "arabic": 128,
+  "chinese": 128
+ }
+}

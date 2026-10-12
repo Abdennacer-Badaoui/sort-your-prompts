@@ -1,0 +1,9 @@
+{
+ "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+ "layers": 48,
+ "experts": 128,
+ "top_k": 8,
+ "domains": {
+  "chat": 768
+ }
+}
