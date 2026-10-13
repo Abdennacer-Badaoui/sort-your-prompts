@@ -89,15 +89,6 @@ vLLM (examples, see vllm_bench.py --help):
     ./run_vllm.sh 0 window256 --window 256 --max-num-seqs 32
     ./run_vllm.sh 0,1 ep --max-num-seqs 64 --tp 2 --ep
 
-Figures (put Inter.ttf and JetBrainsMono.ttf in figures/fonts first):
-
-    python figures/figures.py
-    python figures/render_hero.py
-    python figures/render_diagram.py
-
-The JSON results used for the table and figures are in data/. The traces themselves are too big for git, rerun the
-capture step to get them.
-
 ## Files
 
 - build_prompts.py, capture_routing.py, embed_prompts.py: data
